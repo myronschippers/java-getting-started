@@ -63,7 +63,7 @@ We have 2 new things that we need to get installed on our machines before we can
 
 ### 3.0 - Setting Up the Codebase
 
-[Initializing Codebase Video]()
+[Initializing Codebase Video](https://vimeo.com/493499025)
 
 1. goto [sprint initializr](https://start.spring.io/)
 1. in the form provided on the page there will be information to select or fill in for each section
