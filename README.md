@@ -60,3 +60,25 @@ We have 2 new things that we need to get installed on our machines before we can
     1. right click on the Intellij icon in the MacOS Dock
     1. go to **Options**
     1. click on **Keep In Dock**
+
+### 3.0 - Setting Up the Codebase
+
+[Initializing Codebase Video]()
+
+1. goto [sprint initializr](https://start.spring.io/)
+1. in the form provided on the page there will be information to select or fill in for each section
+    > NOTE: for the **Project Metadata** section you could potentially not change any of the default information for this particular exercise
+1. in the **Project** section, select "**Maven Project**"
+1. in the **Language** section, select "**Java**"
+1. in the **Spring Boot** section, select "**2.4.1**"
+1. in the **Project Metadata** section, there are a few fields and options to fill in
+    - for **Group**, you can choose a custom name here but no uppercase and words should be separated by a `.`
+    - for **Artifact** & **Name**, I would recommend these being the same thing (should be lowercase)
+    - for **Description**, write a short description for your project (*example:* Learning Java stack)
+    - for **Package name**, has to have whatever you wrote for Group a `.` and then the name for the package
+    - for **Packaging**, choose the "**Jar**" option
+    - for **Java**, choose version "**11**"
+1. in the **Dependencies** section, we'll load up "**Thymeleaf**"
+    - click on the "**ADD DEPENDENCIES**" button
+    - in the search field at the top of the window that pops up type "Thymeleaf"
+    - click on the "**Thymeleaf**" dependency that appeared, the dependency is now added to the list we'll only do this for the "**Thymeleaf**" dependency so we can show how to manual configure a dependency as well
