@@ -21,3 +21,35 @@ We have 2 new things that we need to get installed on our machines before we can
 
 - [Downloading Java]()
 - [Downloading Intelij](https://www.jetbrains.com/idea/download/#section=mac)
+
+#### 2.1 - Installing Java
+
+**Update Brew:**
+
+1. `brew update`
+    1. You might be prompted to run the following git command because of some recent updates ti Git and Brew.
+    1. `git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow`
+1. `brew tap homebrew/cask-versions`
+1. `brew tap homebrew/cask`
+
+**Installing Java:**
+
+1. `brew tap adoptopenjdk/openjdk`
+1. `brew install --cask adoptopenjdk`
+1. `java --version`
+    1. Test to verify that the the Java language has been install on your machine.
+
+#### 2.2 - Installing Intellij
+
+1. navigate to [Intellij Download](https://www.jetbrains.com/idea/download/#section=mac)
+1. click on the Download button for the **Community** version
+    1. at the bottom of the browser you should see the downloaded `.dmg` file
+    1. click on the arrow and select the show in finder option
+    1. double click on the `.dmg` file
+    1. drag Intellij app into the Application folder as prompted
+1. after download is complete find Intellij in the Application folder
+1. double click to open the IntelliJ application
+1. pin the application to the MacOS Dock
+    1. right click on the Intellij icon in the MacOS Dock
+    1. go to **Options**
+    1. click on **Keep In Dock**
