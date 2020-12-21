@@ -11,7 +11,7 @@ The goal of this exercise is to transition from a Node stack into a Java stack. 
 It is not uncommon as a Software Engineer to be asked to move to a new / different stack. Equally as important as physically being able to transition to a new stack is our willingness as Software Engineers to head off into a language or way of doing things that we're not familiar with. To get a look at how we're gonna approach this transition take a look at the video linked below.
 
 **Video:**
-[Transitioning Stacks to Java]()
+[Transitioning Stacks to Java](https://vimeo.com/492086703)
 
 Try googling the questions posed in the video to get an idea for all of the Java options out there before moving on. Move onto the next step ([2.0 - Installation](/#2.0 - Installation)) only after you have allowed yourself some time researching the new stack.
 
@@ -19,10 +19,13 @@ Try googling the questions posed in the video to get an idea for all of the Java
 
 We have 2 new things that we need to get installed on our machines before we can jump into code. The first thing is the actual Java language, just like when we installed Node.js. The second thing is going to be an IDE / Editor that is meant for working with Java. For the IDE / Editor we are going to go with Intellij. For Intellij make sure you are downloading the Community version, the Ultimate version is not free.
 
-- [Downloading Java]()
+- [Downloading Java](https://adoptopenjdk.net/)
 - [Downloading Intelij](https://www.jetbrains.com/idea/download/#section=mac)
+- [Installation Walkthrough Video](https://vimeo.com/493430338)
 
 #### 2.1 - Installing Java
+
+[Java Installation](https://vimeo.com/493430338)
 
 **Update Brew:**
 
@@ -42,6 +45,8 @@ We have 2 new things that we need to get installed on our machines before we can
     1. Test to verify that the the Java language has been install on your machine.
 
 #### 2.2 - Installing Intellij
+
+[Code Editor Installation Video](https://vimeo.com/493430338#t=7m3s)
 
 1. navigate to [Intellij Download](https://www.jetbrains.com/idea/download/#section=mac)
 1. click on the Download button for the **Community** version
