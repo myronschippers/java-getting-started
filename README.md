@@ -26,6 +26,8 @@ We have 2 new things that we need to get installed on our machines before we can
 
 **Update Brew:**
 
+> NOTE: If you cannot remember the last time you installed something using **brew** then make sure to follow this process to update **homebrew**.
+
 1. `brew update`
     1. You might be prompted to run the following git command because of some recent updates ti Git and Brew.
     1. `git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow`
