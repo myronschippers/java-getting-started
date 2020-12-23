@@ -82,3 +82,7 @@ We have 2 new things that we need to get installed on our machines before we can
     - click on the "**ADD DEPENDENCIES**" button
     - in the search field at the top of the window that pops up type "Thymeleaf"
     - click on the "**Thymeleaf**" dependency that appeared, the dependency is now added to the list we'll only do this for the "**Thymeleaf**" dependency so we can show how to manual configure a dependency as well
+
+## Lesson Videos
+
+- [Java | Java Intro](https://vimeo.com/452567118)
